@@ -10,7 +10,7 @@ const headerProps = {
 
 const baseUrl = 'http://localhost:3001/users'
 const initialState = {
-  users: { name: '', email: ''},
+  user: { name: '', email: ''},
   list: []
 }
 
@@ -74,6 +74,7 @@ export default class UserCrud extends Component {
             </div>
           </div>
 
+          </div>
           <hr />
           <div className="row">
             <div className="col-12 d-flex justify-content-end">
@@ -86,7 +87,6 @@ export default class UserCrud extends Component {
                 Cancelar
               </button>
             </div>
-          </div>
         </div>
       </div>
     )
