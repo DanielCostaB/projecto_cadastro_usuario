@@ -1,11 +1,19 @@
 {
-  "users": [{
-    "id": 1,
-    "nome": "Daniel Costa",
-    "email": "daniel.c.dan@gmail.com"
-  }, {
-    "id": 2,
-    "nome": "Anjelina Jolie",
-    "email": "anjel.jolie@gmail.com"
-}]
+  "users": [
+    {
+      "id": 1,
+      "name": "Daniel Costa",
+      "email": "daniel.c.dan@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Anjelina Jolie",
+      "email": "anjel.jolie@gmail.com"
+    },
+    {
+      "name": "ZartDc",
+      "email": "zartdc@gmail.com",
+      "id": 3
+    }
+  ]
 }
